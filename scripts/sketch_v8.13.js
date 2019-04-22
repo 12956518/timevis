@@ -2,7 +2,7 @@ var bgCol;
 var strCol
 
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(1400, 800);
 	colorMode(HSB, 360, 100, 100);
     bgCol = color(0, 0, 0);
 	strCol = color(0, 0, 100);
@@ -15,7 +15,7 @@ function draw() {
     stroke(strCol);
 	strokeCap(SQUARE);
 	frameRate(60);
-	translate(110, 200);
+	translate(420, 200);
 
 //	rotate(PI/4);
 //	translate(0, -400);
